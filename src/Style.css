@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.main{
+    background-color:rgb(3, 1, 22);
+    color: white;
+    width: 100%;
+    height:690vh;
+
+}
+.container{
+    width: 1110px;
+    margin: 12px auto ;
+    align-items: center;
+    justify-content: center;
+}
+.Header{
+    padding:25px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.lgo{
+    color: aqua;
+}
+.Timeer{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 2rem;
+    display:flex;
+    flex-direction: row;
+}
+.hour{
+    font-size: 7rem;
+}
+.days{
+    font-size: 2rem;
+}
+.mssSomali{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1.5rem;
+    line-height: 1.5;
+}
+.mssSomali .text{
+    font-size: 1.5rem;
+}
+.mssSomali .text p{
+    font-size: 1.3rem;
+    color: rgba(254, 249, 249, 0.422);
+}
+.competitors{
+    padding: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+}
+.competitor{
+    width: 100%;
+    position: relative;
+    height: 500px;
+  
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    padding: 12px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    line-height: 1.3;
+    background: linear-gradient(rgba(255, 255, 255, 0.037), rgba(36, 1, 36, 0.9));
+}
+.info h1{
+    font-size: 2rem;
+}
+.state{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.nvote{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 100;
+}
+.icons{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+   right: 0;
+   margin: 12px;
+   background-color: white;
+   color: rgb(4, 4, 94);
+   border-radius: 50%;
+ 
+}
+.vicon{
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.modalcontainer{
+    width: 100%;
+    /* padding: 12px 0; */
+    align-items: center;
+    justify-content: center;
+}
+.flex{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.backgroundStyle {
+    width: 300px;
+    height: 100px;
+}
+.backgroundStyle img{
+    width: 100%;
+    height: 65vh;
+    object-fit: cover;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    font-size:1.3rem;
+    line-height: 1.7;
+}
+.information label{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.votebuttons{
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.votoesbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.vbtn{
+    width: 60px ;
+    height: 40;
+    font-size: 3rem;
+    background-color: rgb(1, 3, 60);
+    color: white;
+    align-items: center;
+    border: none    ;
+    text-align: center;
+}
+.votes{
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder ;
+}
+.form{
+   width: 100;
+   align-items: center;
+   justify-content: center;
+   font-size: 2rem;
+   padding: 4px;
+}
+.colbtn{
+    margin: 5px;
+    display: flex;
+    padding: 15px 25px;
+    font-size: 1.5rem;
+    width: 100% ;
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    color: rgb(1, 3, 60);
+}
